@@ -1,7 +1,5 @@
 # MongoDB Express.js Starter with React
 
-Example for the article on MongoDB and Express JS web REST API tutorial.
-
 ## How To Run
 
 1. You can follow the [Getting Started with Atlas](https://docs.atlas.mongodb.com/getting-started/) guide on the MongoDB site to learn how to create a free Atlas account, create your first cluster and get your Connection String to the database. 
