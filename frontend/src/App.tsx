@@ -14,7 +14,6 @@ const App = () => {
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;
-
     setTodo({
       ...todo,
       [name]: value,
@@ -26,7 +25,6 @@ const App = () => {
       title: title,
       description: description,
     });
-
     window.location.reload();
   };
 
@@ -72,7 +70,7 @@ const App = () => {
           {data.map((todo: any, id: any) => (
             <Todo
               key={id}
-              id={id}
+              id={todo._id}
               title={todo.title}
               description={todo.description}
               modified={todo.last_modified}

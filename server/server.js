@@ -13,7 +13,7 @@ app.use(require("./routes/record"));
 
 app.use(function (err, _req, res) {
   console.error(err.stack);
-  res.status(500).send('Something went wrong');
+  res.status(500).send("Something went wrong");
 });
 
 dbo.connectToServer(function (err) {
