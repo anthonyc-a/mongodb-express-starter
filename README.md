@@ -1,4 +1,4 @@
-# mongodb-express-starter
+# MongoDB Express.js Starter with React
 
 Example for the article on MongoDB and Express JS web REST API tutorial.
 
