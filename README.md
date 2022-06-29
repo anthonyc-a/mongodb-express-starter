@@ -1,4 +1,4 @@
-# MongoDB Express.js Starter with React
+# MongoDB Express.js React CRUD Starter
 
 ## How To Run
 
